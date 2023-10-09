@@ -19,6 +19,11 @@
     margin: 0 auto;
 }
 
+.container-small {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .img {
     display: block;
 }
@@ -86,6 +91,7 @@ nav li {
 .jumbotron {
     background-color: #b4d0e7;
     padding-top: 100px;
+    margin-bottom: 160px;
 }
 
 .col-small {
@@ -129,6 +135,32 @@ nav li {
 
 
 /* #region MAIN*/
+
+main .container-small input {
+    margin-top: 70px;
+}
+
+.container-small h2 {
+    font-size: 30px;
+}
+
+.container-small label {
+    font-size: 10px;
+    text-align: center;
+}
+
+.abbonamenti .row {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.column {
+    background-color: aquamarine;
+    margin-top: 50px;
+    width: calc((100% - 100px) /3);
+    border: 1px solid #d0d0d3;
+}
+
 /* #endregion MAIN*/
 
 
