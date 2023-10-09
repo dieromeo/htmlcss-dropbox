@@ -24,6 +24,7 @@ ul {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 
 header a,
@@ -31,6 +32,19 @@ footer a {
     text-decoration: none;
     color: black;
 }
+
+button {
+    all: unset;
+    background-color: #0061ff;
+    color: white;
+    padding: 8px 17px;
+    margin-left: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 
 /* #endregion COMMON*/
 
@@ -40,8 +54,8 @@ footer a {
 /* nav*/
 
 nav {
-    background-color: red;
     justify-content: space-between;
+    border-bottom: 1px solid #d1d9e1;
 }
 
 nav .nav-left,
@@ -52,6 +66,13 @@ nav .nav-right {
 
 nav li {
     padding-left: 40px;
+}
+
+/* jumbotron*/
+
+.jumbotron {
+    height: 735px;
+    background-color: #b4d0e7;
 }
 
 /* #endregion HEADER*/
