@@ -14,6 +14,11 @@
     display: flex;
 }
 
+.container-big {
+    width: 1180px;
+    margin: 0 auto;
+}
+
 .img {
     display: block;
 }
@@ -38,7 +43,6 @@ button {
     background-color: #0061ff;
     color: white;
     padding: 8px 17px;
-    margin-left: 20px;
 }
 
 button:hover {
@@ -56,12 +60,21 @@ button:hover {
 nav {
     justify-content: space-between;
     border-bottom: 1px solid #d1d9e1;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 9999;
 }
 
 nav .nav-left,
 nav .nav-right {
     align-items: center;
     padding: 25px 15px;
+}
+
+nav ul {
+    margin-right: 20px;
 }
 
 nav li {
@@ -71,8 +84,45 @@ nav li {
 /* jumbotron*/
 
 .jumbotron {
-    height: 735px;
     background-color: #b4d0e7;
+    padding-top: 100px;
+}
+
+.col-small {
+    width: 380px;
+}
+
+.col-big {
+    width: 800px;
+    position: relative;
+}
+
+.col-big img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+    padding-bottom: 70px;
+}
+
+.jumbotron p {
+    padding-bottom: 30px;
+    padding-right: 20px;
+    font-size: 15px;
+
+}
+
+.jumbotron .arrow {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.col-small :nth-last-child(2) {
+    padding: 35px 0 70px 0;
 }
 
 /* #endregion HEADER*/
