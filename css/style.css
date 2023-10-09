@@ -141,7 +141,7 @@ main .container-small input {
 }
 
 .container-small h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .container-small label {
@@ -155,11 +155,78 @@ main .container-small input {
 }
 
 .column {
-    background-color: aquamarine;
+
     margin-top: 50px;
     width: calc((100% - 100px) /3);
     border: 1px solid #d0d0d3;
 }
+
+.column .category {
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 10px;
+}
+
+.column .category i {
+    font-size: 14px;
+}
+
+
+.column .category span {
+    font-size: 10px;
+}
+
+.column-body {
+    padding: 35px 30px;
+}
+
+ul.vantaggi-abbonamento {
+    margin-top: 50px;
+}
+
+ul.punti-salienti {
+    margin-top: 35px;
+}
+
+.tipologia-abbonamento {
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.price {
+    font-size: 10px;
+}
+
+.frequenza {
+    font-size: 10px;
+    color: #666666;
+    margin-bottom: 55px;
+}
+
+.column-body ul {
+
+    margin-bottom: 50px;
+}
+
+.column-body ul li {
+    margin-bottom: 25px;
+    padding-right: 25px;
+}
+
+div.buy-now {
+    margin: 35px 0 40px 0;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+hr.column-hr {
+    width: 48px;
+    background-color: #d0d0d3;
+    margin-bottom: 50px;
+}
+
 
 /* #endregion MAIN*/
 
