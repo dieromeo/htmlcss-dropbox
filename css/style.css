@@ -7,3 +7,59 @@
 }
 
 /* #endregion RESET*/
+
+/* #region COMMON*/
+
+.flex {
+    display: flex;
+}
+
+.img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* #endregion COMMON*/
+
+
+/* #region HEADER*/
+
+/* nav*/
+
+nav {
+    background-color: red;
+    justify-content: space-between;
+}
+
+nav .nav-left,
+nav .nav-right {
+    align-items: center;
+    padding: 25px 15px;
+}
+
+nav li {
+    padding-left: 40px;
+}
+
+/* #endregion HEADER*/
+
+
+/* #region MAIN*/
+/* #endregion MAIN*/
+
+
+/* #region FOOTER*/
+/* #endregion FOOTER*/
