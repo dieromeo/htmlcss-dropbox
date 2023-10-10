@@ -66,7 +66,8 @@ button:hover {
 }
 
 .abbonamenti h2,
-.business h2 {
+.business h2,
+.aziende h2 {
     font-size: 40px;
 }
 
@@ -300,6 +301,10 @@ button.normal {
 
 /* terza sezione*/
 
+section.business {
+    margin-bottom: 215px;
+}
+
 section.business .container-small {
     gap: 50px;
     flex-wrap: wrap;
@@ -313,6 +318,29 @@ section.business h3 {
 section.business div.column {
     border: none;
 }
+
+.mega-container .left,
+.mega-container .center,
+.mega-container .right {
+    background-color: #b4d0e7;
+    border: 2px solid black;
+    width: calc(100% /3);
+}
+
+.left,
+.right {
+    flex-wrap: wrap;
+}
+
+
+.azienda-img {
+    width: 50%;
+    border: 2px solid black;
+}
+
+/*quarta sezione*/
+
+
 
 /* #endregion MAIN*/
 
