@@ -95,14 +95,20 @@ nav .nav-left,
 nav .nav-right {
     align-items: center;
     padding: 25px 15px;
+    gap: 40px;
 }
 
 nav ul {
     margin-right: 20px;
+    gap: 40px
 }
 
-nav li {
-    padding-left: 40px;
+nav li:hover {
+    border-bottom: 2px solid black;
+}
+
+nav button:hover {
+    filter: brightness(150%);
 }
 
 /* jumbotron*/
@@ -341,6 +347,23 @@ section.business div.column {
 .left,
 .right {
     flex-wrap: wrap;
+}
+
+.azienda-img {
+    width: 50%;
+}
+
+.azienda-img img {
+    min-width: 160px;
+}
+
+.designit {
+    background-color: #a2d39b;
+}
+
+.designit img {
+    padding: 120px 70px;
+    border: 15px solid #d1e9cd;
 }
 
 /* #endregion MAIN*/
