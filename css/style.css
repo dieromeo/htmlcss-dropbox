@@ -24,8 +24,10 @@
     margin: 0 auto;
 }
 
-.img {
+main img,
+.jumbotron img {
     display: block;
+    width: 100%;
 }
 
 ul {
@@ -34,7 +36,7 @@ ul {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 header a,
@@ -53,6 +55,14 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+.col-big {
+    width: 70%;
+}
+
+.col-small {
+    width: 30%
 }
 
 
@@ -97,17 +107,13 @@ nav li {
     margin-bottom: 160px;
 }
 
-.col-small {
-    width: 380px;
-}
 
-.col-big {
-    width: 800px;
+
+.jumbotron .col-big {
     position: relative;
 }
 
-.col-big img {
-    width: 100%;
+.jumbotron .col-big img {
     position: absolute;
     left: 0;
     top: 0;
@@ -130,7 +136,7 @@ nav li {
     margin-bottom: 15px;
 }
 
-.col-small :nth-last-child(2) {
+.jumbotron .col-small :nth-last-child(2) {
     padding: 35px 0 70px 0;
 }
 
@@ -139,11 +145,17 @@ nav li {
 
 /* #region MAIN*/
 
+/*prima section colonne*/
+
+.abbonamenti {
+    margin-bottom: 130px;
+}
+
 main .container-small input {
     margin-top: 70px;
 }
 
-.container-small h2 {
+.abbonamenti h2 {
     font-size: 40px;
 }
 
@@ -254,6 +266,32 @@ div.column.orizzontal .column-body .caratteristiche-abbonamento {
 
 .column.orizzontal .caratteristiche-abbonamento p {
     margin-top: 55px;
+}
+
+/*seconda section*/
+
+section .col-big {
+    width: 55%;
+}
+
+section .col-small {
+    width: 45%;
+    padding: 55px 65px 0 50px;
+}
+
+section .col-small h2 {
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+
+p.partner {
+    margin-bottom: 30px;
+}
+
+button.normal {
+    background-color: white;
+    color: black;
+    border: 1px solid black
 }
 
 /* #endregion MAIN*/
