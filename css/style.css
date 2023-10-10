@@ -327,20 +327,21 @@ section.business div.column {
     width: calc(100% /3);
 }
 
+
+/*quarta sezione*/
+
+.aziende h2 {
+    margin-bottom: 70px;
+}
+
+.mega-container {
+    margin-top: 150px;
+}
+
 .left,
 .right {
     flex-wrap: wrap;
 }
-
-
-.azienda-img {
-    width: 50%;
-    border: 2px solid black;
-}
-
-/*quarta sezione*/
-
-
 
 /* #endregion MAIN*/
 
