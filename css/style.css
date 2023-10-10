@@ -270,16 +270,16 @@ div.column.orizzontal .column-body .caratteristiche-abbonamento {
 
 /*seconda section*/
 
-section .col-big {
+section.partner .col-big {
     width: 55%;
 }
 
-section .col-small {
+section.partner .col-small {
     width: 45%;
     padding: 55px 65px 0 50px;
 }
 
-section .col-small h2 {
+section.partner .col-small h2 {
     font-size: 27px;
     padding-bottom: 15px;
 }
