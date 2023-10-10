@@ -48,6 +48,7 @@ button {
     background-color: #0061ff;
     color: white;
     padding: 8px 17px;
+    line-height: normal;
 }
 
 button:hover {
@@ -70,6 +71,8 @@ nav {
     left: 0;
     background-color: white;
     z-index: 9999;
+    height: 80px;
+    line-height: 80px;
 }
 
 nav .nav-left,
@@ -227,6 +230,31 @@ hr.column-hr {
     margin-bottom: 50px;
 }
 
+.column-btn {
+    width: calc(100% - 30px);
+    text-align: center;
+}
+
+div.column.orizzontal {
+    flex-grow: 1;
+}
+
+div.column.orizzontal .column-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.column.orizzontal .column-body .caratteristiche-abbonamento {
+    width: 60%;
+}
+
+.orizzontal-btn {
+    width: 20%;
+}
+
+.column.orizzontal .caratteristiche-abbonamento p {
+    margin-top: 55px;
+}
 
 /* #endregion MAIN*/
 
