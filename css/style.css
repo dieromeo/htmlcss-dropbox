@@ -36,7 +36,7 @@ ul {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 header a,
@@ -63,6 +63,11 @@ button:hover {
 
 .col-small {
     width: 30%
+}
+
+.abbonamenti h2,
+.business h2 {
+    font-size: 40px;
 }
 
 
@@ -155,10 +160,6 @@ main .container-small input {
     margin-top: 70px;
 }
 
-.abbonamenti h2 {
-    font-size: 40px;
-}
-
 .container-small label {
     font-size: 10px;
     text-align: center;
@@ -204,7 +205,7 @@ ul.punti-salienti {
 }
 
 .tipologia-abbonamento {
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 25px;
 }
 
@@ -269,6 +270,9 @@ div.column.orizzontal .column-body .caratteristiche-abbonamento {
 }
 
 /*seconda section*/
+section.partner {
+    margin-bottom: 165px;
+}
 
 section.partner .col-big {
     width: 55%;
@@ -292,6 +296,22 @@ button.normal {
     background-color: white;
     color: black;
     border: 1px solid black
+}
+
+/* terza sezione*/
+
+section.business .container-small {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+section.business h3 {
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+section.business div.column {
+    border: none;
 }
 
 /* #endregion MAIN*/
