@@ -169,13 +169,14 @@ nav button:hover {
     margin-bottom: 130px;
 }
 
-main .container-small input {
+main .radio-button {
     margin-top: 70px;
+    vertical-align: middle;
 }
 
 .container-small label {
-    font-size: 10px;
-    text-align: center;
+    font-size: 14px;
+    margin-right: 50px;
 }
 
 .abbonamenti .row {
