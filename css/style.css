@@ -115,7 +115,7 @@ nav button:hover {
 
 .jumbotron {
     background-color: #b4d0e7;
-    padding-top: 100px;
+    padding-top: 180px;
     margin-bottom: 160px;
 }
 
@@ -325,16 +325,15 @@ section.business div.column {
     border: none;
 }
 
+
+/*quarta sezione*/
+
 .mega-container .left,
 .mega-container .center,
 .mega-container .right {
-    background-color: #b4d0e7;
-    border: 2px solid black;
     width: calc(100% /3);
+    height: calc(100vw /3);
 }
-
-
-/*quarta sezione*/
 
 .aziende h2 {
     margin-bottom: 70px;
@@ -351,19 +350,71 @@ section.business div.column {
 
 .azienda-img {
     width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .azienda-img img {
-    min-width: 160px;
+    width: 50%;
+    filter: invert(1);
 }
 
 .designit {
     background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
 }
 
-.designit img {
-    padding: 120px 70px;
-    border: 15px solid #d1e9cd;
+.arizona {
+    background-color: #61082b;
+}
+
+.florida {
+    background-color: #0093ce;
+}
+
+.topps {
+    background-color: #ff1c1c;
+}
+
+.world-bicycle {
+    background-color: #d5001f;
+}
+
+.heart-corporation {
+    background-color: #b4d0e7;
+}
+
+.lonely-planet {
+    background-color: #0d2481;
+}
+
+.clear-channel {
+    background-color: #ffd830;
+}
+
+.center {
+    padding: 45px;
+    overflow: auto;
+}
+
+.center img {
+    width: 60%;
+}
+
+hr.column-hr.big {
+    width: 110px;
+    margin: 45px 0 35px;
+}
+
+.aziende .center p {
+    margin-bottom: 50px;
+}
+
+/*quinta section*/
+
+.free-trial {
+    background-color: #b4d0e7;
 }
 
 /* #endregion MAIN*/
