@@ -67,7 +67,8 @@ button:hover {
 
 .abbonamenti h2,
 .business h2,
-.aziende h2 {
+.aziende h2,
+.free-trial h2 {
     font-size: 40px;
 }
 
@@ -415,6 +416,20 @@ hr.column-hr.big {
 
 .free-trial {
     background-color: #b4d0e7;
+    padding-top: 130px;
+    padding-bottom: 75px;
+}
+
+.free-trial h2 {
+    color: #61082b;
+    padding-right: 200px;
+}
+
+.btn.no-br {
+    background-color: #fff;
+    color: black;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 /* #endregion MAIN*/
