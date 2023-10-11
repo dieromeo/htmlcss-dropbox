@@ -105,6 +105,10 @@ nav ul {
     gap: 40px
 }
 
+nav li {
+    border-bottom: 2px solid transparent;
+}
+
 nav li:hover {
     border-bottom: 2px solid black;
 }
